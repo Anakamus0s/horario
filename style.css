@@ -1,0 +1,57 @@
+
+/* th.blanco{
+    border: 1px solid white;
+} */
+
+h1{
+    text-align: center;
+}
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    empty-cells: hide;
+}
+td {
+    width: 100px;
+    height: 30px;
+}
+td.blanco{
+    border: 1px solid white;
+}
+
+td.sistemas {
+    background-color: #ffd966;
+}
+td.bases {
+    background-color: #a181b8;
+}
+td.redes {
+    background-color: #a8d08d;
+}
+td.FOL {
+    background-color: #89d9d6;
+    border: 1px solid black;
+}
+td.fundamentos {
+    background-color: #f4b083;
+}
+td.lenguajes {
+    background-color: #e35959;
+}
+td.ingles {
+    background-color: #8eaadb;
+}
+td.tutoria {
+    background-color: #aeaaaa;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
