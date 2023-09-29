@@ -16,7 +16,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    empty-cells: hide;
+    
 }
 td {
     width: 100px;
@@ -26,31 +26,154 @@ td.blanco{
     border: 1px solid white;
 }
 
-td.sistemas {
+/* td.sistemas {
     background-color: #ffd966;
+} */
+
+@keyframes amarillo {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 }
+
+td.sistemas {
+    background-image: linear-gradient(to right, #F7DC6F, #FFD700, #FFDB58); /* Tres tonos de amarillo */
+    background-size: 200% auto;
+    animation: amarillo 5s ease-in-out infinite;
+}
+
+@keyframes lila {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.bases {
-    background-color: #a181b8;
+    background-image: linear-gradient(to right, #A58FC8, #917EA3, #C6A9E8); /* Tres tonos de lila */
+    background-size: 200% auto;
+    animation: lila 5s ease-in-out infinite;
 }
+
+@keyframes verde {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.redes {
-    background-color: #a8d08d;
+    background-image: linear-gradient(to right, #A8D28B, #7FAE60, #5C8F48); /* Tres tonos de verde claro */
+    background-size: 200% auto;
+    animation: verde 5s ease-in-out infinite;
 }
+
+@keyframes azulcalrito {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.FOL {
-    background-color: #89d9d6;
-    border: 1px solid black;
+    background-image: linear-gradient(to right, #99d8d8, #48ffed, #169c96); /* Tres tonos de turquesa/azul claro */
+    background-size: 200% auto;
+    animation: azulclarito 5s ease-in-out infinite;
 }
+
+@keyframes naranja {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.fundamentos {
-    background-color: #f4b083;
+    background-image: linear-gradient(to right, #FFD580, #FFBE41, #FFA500); /* Tres tonos de naranja claro */
+    background-size: 200% auto;
+    animation: naranja 5s ease-in-out infinite;
 }
+
+@keyframes animatedBackgroundRojo {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.lenguajes {
-    background-color: #e35959;
+    background-image: linear-gradient(to right, #ff8080, #FF4040, #ff1e1e); /* Tres tonos de rojo */
+    background-size: 200% auto;
+    animation: animatedBackgroundRojo 5s ease-in-out infinite;
 }
+
+@keyframes azuloscuro {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.ingles {
-    background-color: #8eaadb;
+    background-image: linear-gradient(to right, #1454c2, #1043a1, #1b3277); /* Tres tonos de azul oscuro */
+    background-size: 200% auto;
+    animation: azuloscuro 5s ease-in-out infinite;
 }
+
+@keyframes gris {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
 td.tutoria {
-    background-color: #aeaaaa;
+    background-image: linear-gradient(to right, #CCCCCC, #999999, #666666); /* Tres tonos de gris */
+    background-size: 200% auto;
+    animation: gris 5s ease-in-out infinite;
 }
+
 
 table {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
